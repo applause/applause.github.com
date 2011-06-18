@@ -1,0 +1,52 @@
+html, body {
+	margin: 0; padding: 0;
+	height: 100%;
+}
+ 
+body {
+	background: #333;
+	font-family:CentSchbook Mono BT, Bitstream Vera Sans Mono, monofont, monospace;
+	font-weight: bold;
+}
+ 
+#floater {
+	position: relative; float: left;
+	height: 50%; margin-bottom: -200px;
+	width: 1px;
+}
+ 
+#centered {
+	position:relative; clear:left;
+	height:400px; width:80%; max-width:1200px; min-width:400px;
+	margin:0 auto;
+	background:#eee;
+}
+
+a {
+	color:#228a30; 
+	text-decoration:none;
+}
+a:hover { 
+	text-decoration:underline; 
+}
+
+@font-face {
+	font-family:monofont;
+	src: url(http://foohack.com/tpl/fonts/Bitstream-Vera-Sans-Mono/VeraMono.ttf) format("truetype");
+}
+@font-face {
+	font-family:monofont;
+	font-style:italic;
+	src: url(http://foohack.com/tpl/fonts/Bitstream-Vera-Sans-Mono/VeraMoIt.ttf) format("truetype");
+}
+@font-face {
+	font-family:monofont;
+	font-weight:bold;
+	src: url(http://foohack.com/tpl/fonts/Bitstream-Vera-Sans-Mono/VeraMoBd.ttf) format("truetype");
+}
+@font-face {
+	font-family:monofont;
+	font-style:italic;
+	font-weight:bold;
+	src: url(http://foohack.com/tpl/fonts/Bitstream-Vera-Sans-Mono/VeraMoBI.ttf) format("truetype");
+}
